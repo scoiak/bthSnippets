@@ -26,3 +26,6 @@
 * [Compras: Corrige data publicação menor do que assinatura](sybase/data-publicacao-maior-que-assinatura.md)
 * [Contabil: Unifica credores com cpf/cnpj duplicados](sybase/unifica-credores.md)
 * [Contabil: Retorna dados orçamento](sybase/dados-orcamento.md)
+* [Contabil: Corrige DE com data de emissão menor do que vencimento](sybase/de-data-emissao.md)
+* [Contabil: Rotina não gerou detalhamento recurso](sybase/detalhamento-recurso.md)
+* [Contabil: Leis com data de sansão maior que publicação](sybase/leis-data-errada.md)
