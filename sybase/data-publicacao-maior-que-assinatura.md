@@ -1,5 +1,7 @@
 #### AJUSTA DATA PUBLICAÇÃO MENOR QUE DATA DE ASSINATURA
-, Essa rotina verifica e ajusta contratos que estão com a data de publicação do , contrato com uma data anterior a data de assinatura do mesmo, setando ambas, para ficar igual a data de assinatura.
+
+Essa rotina verifica e ajusta contratos que estão com a data de publicação do , contrato com uma data anterior a data de assinatura do mesmo, setando ambas, para ficar igual a data de assinatura.
+
 ```
 CALL bethadba.pg_habilitartriggers('off');
 
