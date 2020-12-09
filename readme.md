@@ -9,5 +9,5 @@
 * [Funcionalidades com dados padrões](desenvolvimento/dados-padroes.md)
 
 #### Scrips
-* [Funções para formatações diversas de texto][scripts/formatacoes-texto.md]
+* [Funções para formatações diversas de texto](scripts/formatacoes-texto.md)
 * [Funcionalidades com dados padrões](desenvolvimento/dados-padroes.md)
