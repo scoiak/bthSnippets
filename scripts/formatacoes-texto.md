@@ -1,6 +1,6 @@
 #### Formatação de CPF/CNPJ
 
-```
+```groovy
 def formataCpfCnpj = { in_campo ->
   campoFormatado = in_campo;
   tentar {

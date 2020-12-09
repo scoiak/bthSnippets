@@ -2,7 +2,7 @@
 
 Cria procedure temporária que realiza a rotina de unificação de credores
 
-```
+```sql
 CREATE TEMPORARY PROCEDURE unificarCredoresSapo (IN p_credorAtual INT, IN p_novoCredor INT, IN p_entidade INT)
 BEGIN
     -- Declaração de variáveis utilizadas durante a lógica
