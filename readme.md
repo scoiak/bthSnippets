@@ -1,6 +1,6 @@
 ### Documentação
 
-####Aplicações
+#### Aplicações
 * [Configurando ambiente para publicação de sprint](desenvolvimento/configurando-sprints.md)
 * [Funcionalidades com dados padrões](desenvolvimento/dados-padroes.md)
 

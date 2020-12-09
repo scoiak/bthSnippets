@@ -1,6 +1,7 @@
 ## Formatação de CPF/CNPJ
 
-`## Formatação de CPF/CNPJ
+```
+## Formatação de CPF/CNPJ
 formataCpfCnpj = { in_campo ->
   campoFormatado = in_campo;
   tentar {
@@ -15,4 +16,4 @@ formataCpfCnpj = { in_campo ->
   }
   retornar campoFormatado
 }
-`
+```
