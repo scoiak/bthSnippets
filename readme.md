@@ -28,4 +28,4 @@ Atualizar
 * [Contabil: Leis com data de sansão maior que publicação](sybase/leis-data-errada.md)
 
 #### Diversos
-* [Github - Não commitar determinada linha](postgres/github-ignora-linha.md)
+* [Github - Não commitar determinada linha](diversos/github-ignora-linha.md)
