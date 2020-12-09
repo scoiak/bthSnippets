@@ -1,6 +1,6 @@
 #### Despesas extras com data de emissão maior que data de vencimento
 
-```
+```sql
 update sapo.despexs
 set data_vencimento = data_emissao--dateadd(dd, 1, data_emissao)
 where data_emissao > data_vencimento

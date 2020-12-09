@@ -2,7 +2,7 @@
 
 Saneamento de base para correção do erro 'Existe um ou mais participantes que não possuem , todas as propostas cadastradas para todos os itens do processo. Favor verificar e ajustar , antes de homologar o processo. Essa procedure busca para o processo apontado, quais participantes, não possuem algum dos itens cotados, e quando encontra, insere tal item com o valor zerado., Após executar para tal processo, deve-se enviar novamente as propostas, para em seguinte reenviar, o registro de atos finais.
 
-```
+```sql
 CREATE TEMPORARY PROCEDURE insereItensPendentesCotacao(IN p_entidade INT, IN p_anoProc INT, IN p_nrProc INT)
 BEGIN
     -- Variáveis utilizadas na procedure

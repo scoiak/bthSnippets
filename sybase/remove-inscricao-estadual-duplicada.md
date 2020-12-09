@@ -2,7 +2,7 @@
 
 Esse arqjob seta o campo 'inscricao_estadual' para NULL nos casos que existem duplicidade, a fim de sanar a inconsistência do envio de fornecedores. Ambos cadastros ficaram com o campo nulo.
 
-```
+```sql
 UPDATE compras.credores
 SET inscricao_estadual = NULL
 WHERE i_credores in (

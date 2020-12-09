@@ -1,6 +1,6 @@
 #### Verifica todas as despesas do PPA
 
-```
+```sql
 select tipo_registro, 
                  sistema,
                  chave_dsk1,
@@ -64,7 +64,7 @@ select tipo_registro,
 
 #### Verifica todas as receitas do PPA
 
-```
+```sql
 select 
   entidade = i_entidades,
   organograma = chaveDsk1Organogramas,

@@ -5,7 +5,7 @@ A etapa "ConfiguracoesOrganogramasSQL" faz uma validação impeditiva que verifi
 
 A regra consiste em replicar a configuração de CC de um ano de origem para ano destino, bastanto referenciar esses exercícios nos locais especificados. É importante verificar se a configuração de orgão/unidade de origem/destino são compatíveis. O sequencial do campo 'reduz_cus_ger' da tabela continua a contagem do último valor lido do cadastro mais atual do exercício vigente.
 
-```
+```sql
 INSERT INTO compras.ccustos (
     SELECT
         i_ano           = 2002, // !! INSERIR AQUI O ANO DESTINO !! //

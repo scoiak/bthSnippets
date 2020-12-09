@@ -2,7 +2,7 @@
 
 Resolver situação onde o detalhamento dos recursos não foi gerado corretamente
 
-```
+```sql
 INSERT INTO sapo.cfg_detalhe_recursos (i_codigo,i_cfg_recursos,i_entidades,descricao,i_tipo,i_digitos,separador)
 VALUES (1,1,1,'IDuso',1, 1, null);
 

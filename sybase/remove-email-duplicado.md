@@ -2,7 +2,7 @@
 
 Essa procedure faz um tratamento no campo 'email' de fornecedores, que no desktop é um campo texto, e ocorre normalmente do usuário cadastrar múltiplos e-mails. A procedure realiza um tratamento para esses casos visando manter somente o primeiro email do campo. 
 
-```
+```sql
 CREATE TEMPORARY PROCEDURE removeMultiplosEmailsFornecedores()
 BEGIN
     -- Declaração de variáveis
