@@ -26,3 +26,6 @@ Atualizar
 * [Contabil: Corrige DE com data de emissão menor do que vencimento](sybase/de-data-emissao.md)
 * [Contabil: Rotina não gerou detalhamento recurso](sybase/detalhamento-recurso.md)
 * [Contabil: Leis com data de sansão maior que publicação](sybase/leis-data-errada.md)
+
+#### Diversos
+* [Github - Não commitar determinada linha](postgres/github-ignora-linha.md)
