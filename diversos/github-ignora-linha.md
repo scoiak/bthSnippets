@@ -1,8 +1,6 @@
 ### Github - Inognorar determinada linha no arquivo
 
-O método abaixo detalha como configurar o github para ignorar apenas determinadas linhas de um arquivo ao realizar commit/push, e não o arquivo inteiro como o padrão.
-
-Isso pode ser utilizado, por exemplo, para ocultar as linhas onde se passam senhas, tokens, dados pessoais ou credenciais em geral de forma literal no arquivo.
+O método abaixo detalha como configurar o github para ignorar apenas determinadas linhas de um arquivo ao realizar commit/push, e não o arquivo inteiro como o padrão. Isso pode ser utilizado, por exemplo, para ocultar as linhas onde se passam senhas, tokens, dados pessoais ou credenciais em geral de forma literal no arquivo.
 
 O procedimento é o seguinte:
 
@@ -22,7 +20,7 @@ git config --global filter.ignoreline.clean "sed '/#ignoreline$/'d"
 git config --global filter.ignoreline.smudge cat
 ```
 
-- 4. Nos arquivos de código, ao adicionar o texto do filtro, no caso 'ignoreline', toda a linha será desconsiderada do commit/push. Segue exemplo de utilização:
+- 4. Nos arquivos de código, ao adicionar o texto do filtro (no caso 'ignoreline'), toda a linha será desconsiderada do commit/push. Segue exemplo de utilização:
 ```python
     params_execucao = {
         'clicodigo': '2016',
