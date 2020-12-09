@@ -8,9 +8,7 @@ FROM public.controle_migracao_registro
 where sistema = '300'
 GROUP BY tipo_registro
 ORDER BY 3 DESC, 1 asc
-}
 ```
-
 
 #### Verifica qual o erro de cada registro
 
