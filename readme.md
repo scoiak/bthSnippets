@@ -1,16 +1,13 @@
-# Documentação
+# Utilitários
 
 #### Aplicações
-* [Configurando ambiente para publicação de sprint](desenvolvimento/configurando-sprints.md)
-* [Funcionalidades com dados padrões](desenvolvimento/dados-padroes.md)
+Atualizar
 
 #### Relatórios
-* [Configurando ambiente para publicação de sprint](desenvolvimento/configurando-sprints.md)
-* [Funcionalidades com dados padrões](desenvolvimento/dados-padroes.md)
+Atualizar
 
 #### Scripts
 * [Funções para formatações diversas de texto](scripts/formatacoes-texto.md)
-* [Funcionalidades com dados padrões][]
 
 #### Postgres
 * [Consultas úteis migração](postgres/consultas-uteis-migracao.md)
@@ -29,5 +26,3 @@
 * [Contabil: Corrige DE com data de emissão menor do que vencimento](sybase/de-data-emissao.md)
 * [Contabil: Rotina não gerou detalhamento recurso](sybase/detalhamento-recurso.md)
 * [Contabil: Leis com data de sansão maior que publicação](sybase/leis-data-errada.md)
-
-[]: desenvolvimento/dados-padroes.md
