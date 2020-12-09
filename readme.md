@@ -17,8 +17,8 @@
 * [Exportar/Importar tabela utilizando arquivo CSV](postgres/importa-exporta-csv.md)
 
 #### Sybase
-* [Compras: Replica CC entre exercícios](postgres/replica-cc-exercicio.md)
-* [Compras: Remove inscrição estadual duplicada](postgres/consultas-uteis-migracao.md)
-* [Compras: Remove emails duplicados de fornecedores](postgres/consultas-uteis-migracao.md)
-* [Compras: Insere itens pendentes proposta participantes](postgres/consultas-uteis-migracao.md)
-* [Compras: Corrige data publicação menor do que assinatura](postgres/consultas-uteis-migracao.md)
+* [Compras: Replica CC entre exercícios](sybase/replica-cc-exercicio.md)
+* [Compras: Remove inscrição estadual duplicada](sybase/remove-inscricao-estadual-duplicada.md)
+* [Compras: Remove emails duplicados de fornecedores](sybase/remove-email-duplicado.md)
+* [Compras: Insere itens pendentes proposta participantes](sybase/insere-itens-pendentes.md)
+* [Compras: Corrige data publicação menor do que assinatura](sybase/data-publicacao-maior-que-assinatura.md)
