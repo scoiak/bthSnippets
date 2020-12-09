@@ -35,3 +35,16 @@ update public.controle_migracao_registro
 set hash_chave_dsk = md5(concat(sistema, tipo_registro, i_chave_dsk1, i_chave_dsk2)) 
 where tipo_registro = 'motivo-alteracao-salarial';
 ```
+
+#### Insere registro manualmente na tabela de controle
+
+```
+insert into public.controle_migracao_registro (sistema, tipo_registro, hash_chave_dsk, descricao_tipo_registro, id_gerado, i_chave_dsk1, i_chave_dsk2) values
+('300', 'tipo-afastamento', md5(concat('300', 'tipo-afastamento', '56', '65')), 'Cadastro de Tipo de Afastamento', 7309, '56', '65')
+```
+
+#### Verifica ultimos lotes enviados por tipos de registro
+
+```
+select * FROM public.controle_migracao_lotes where tipo_registro = 'periodo-aquisitivo-decimo-terceiro' order by data_hora_env desc
+```
