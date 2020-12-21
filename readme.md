@@ -12,6 +12,7 @@ Atualizar
 #### Postgres
 * [Consultas úteis migração](postgres/consultas-uteis-migracao.md)
 * [Exportar/Importar tabela utilizando arquivo CSV](postgres/importa-exporta-csv.md)
+* [Instalando extensões](postgres/instalando-extensoes.md)
 
 #### Sybase
 * [Busca tabela pelo nome de coluna](sybase/procura-tabela-por-coluna.md)
