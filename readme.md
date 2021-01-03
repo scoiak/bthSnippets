@@ -16,7 +16,7 @@ Atualizar
 
 #### Sybase
 * [Busca tabela pelo nome de coluna](sybase/procura-tabela-por-coluna.md)
-* [Loal/Unload](sybase/load-unload.md)
+* [Load/Unload](sybase/load-unload.md)
 * [Compras: Replica CC entre exercícios](sybase/replica-cc-exercicio.md)
 * [Compras: Remove inscrição estadual duplicada](sybase/remove-inscricao-estadual-duplicada.md)
 * [Compras: Remove emails duplicados de fornecedores](sybase/remove-email-duplicado.md)
