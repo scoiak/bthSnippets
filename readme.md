@@ -13,6 +13,7 @@ Atualizar
 * [Consultas úteis migração](postgres/consultas-uteis-migracao.md)
 * [Exportar/Importar tabela utilizando arquivo CSV](postgres/importa-exporta-csv.md)
 * [Instalando extensões](postgres/instalando-extensoes.md)
+* [Multitenancy](https://info.enterprisedb.com/rs/069-ALB-339/images/Multitenancy%20Approaches%20Whitepaper.pdf)
 
 #### Sybase
 * [Busca tabela pelo nome de coluna](sybase/procura-tabela-por-coluna.md)
